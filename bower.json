@@ -1,0 +1,24 @@
+{
+  "name": "form-validator",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sillypog/form-validator",
+  "authors": [
+    "Peter Hastie <phastie@bleacherreport.com>"
+  ],
+  "description": "Modular form validator",
+  "main": "src/validator_core.js",
+  "keywords": [
+    "Form",
+    "Validator",
+    "Validation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec",
+    "Gruntfile",
+    "package.json"
+  ]
+}
