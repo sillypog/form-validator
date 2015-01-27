@@ -126,11 +126,13 @@ describe('validator.Core.js test suite', function() {
 
 				expect(elements.length).toEqual(2);
 				expect(elements[0]).toEqual({
+					_index: 0,
 					_destroy: 'false',
 					description: 'first',
 					id: '1'
 				});
 				expect(elements[1]).toEqual({
+					_index: 1,
 					_destroy: 'false',
 					description: 'second',
 					id: '2'

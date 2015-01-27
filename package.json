@@ -1,6 +1,6 @@
 {
   "name": "form-validator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Modular form validator",
   "main": "src/validator_core.js",
   "scripts": {

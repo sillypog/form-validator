@@ -35,9 +35,9 @@ window.sillypog.validator.Core = (function(){
 			var hit = prop.match(fieldRegEx);
 			// Pull out ones that match our regex
 			if (hit){
-				var index = hit[1],
+				var index = parseInt(hit[1], 10),
 				    key = hit[2],
-				    obj = fields[index] ? fields[index] : fields[index] = {};
+				    obj = fields[index] ? fields[index] : fields[index] = {_index: index};
 				obj[key] = this.data[prop];
 			}
 		}
