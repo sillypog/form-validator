@@ -1,4 +1,4 @@
-# form-validator
+# form-validator ![Build Status](https://github.com/sillypog/form-validator/actions/workflows/test.yml/badge.svg?branch=main)
 Modular javascript form validator
 
 # Install
